@@ -1,0 +1,41 @@
+html,
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    align-self: center;
+}
+
+h1 {
+    color: white;
+}
+
+.gamebox {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    align-self: center;
+    border: 1px solid white;
+    width: 500px;
+    height: 500px;
+}
+
+.box {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: chartreuse;
+    font-size: 92px;
+}
+
+.statusbox {
+    align-self: center;
+    text-align: center;
+}
